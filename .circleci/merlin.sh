@@ -11,7 +11,7 @@ KERNEL_DIR="$(pwd)"
 ##----------------------------------------------------------##
 # Device Name and Model
 MODEL=Xiaomi
-DEVICE=merlin
+DEVICE=lancelot
 
 # Kernel Version Code
 #VERSION=
@@ -41,7 +41,7 @@ DATE=$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M")
 TANGGAL=$(date +"%F%S")
 
 # Specify Final Zip Name
-ZIPNAME="SUPER.KERNEL-MERLIN-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
+ZIPNAME="SUPER.KERNEL-LANCELOT-$(TZ=Asia/Jakarta date +"%Y%m%d-%H%M").zip"
 FINAL_ZIP=${ZIPNAME}-${DEVICE}-${DATE}.zip
 FINAL_ZIP_ALIAS=Karenulmerlita-${DATE}.zip
 
